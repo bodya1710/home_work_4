@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.wrap{
+    height: 100vh;
+    width: 100%;
+}
+.header{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.header .item{
+    height: 80%;
+    width: 20%;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aside{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    row-gap: 5px;
+
+}
+.aside .item{
+    height: 5%;
+    width: 100%;
+}
+.main{
+    flex-grow: 7;
+    display: flex;
+    flex-direction: column;
+
+}
+.welcome_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex-grow: 3;
+}
+.welcome_container .item{
+    width: 100%;
+    height: 100%;
+}
+.slid{
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    column-gap: 5px;
+}
+.slid .item{
+    flex: 1 0 calc(25% - 10px);
+}
+.post{
+    flex-grow: 7;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post_item{
+    flex-grow: 3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.firs_post_item{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+    padding: 5px;
+    flex-grow: 7;
+}
+.second_post_item{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second_post_item  .item{
+        width: 20%;
+        height: 50%;
+}
+.post_item .firs_post_item .item {
+    flex: 1 0 calc(50% - 10px);
+}
+.post_aside{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    row-gap: 5px;
+}
+.post_aside .item{
+    width: 100%;
+    height: 15%;
+}
+.footer{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5px;
+}
+.footer .item{
+    width: 100%;
+    height: 60%;
+}
+.footer .item:last-child{
+    width: 40%;
+}
+.item{
+    background-color: #e1e1e1;
+
+}
